@@ -1,11 +1,6 @@
 function ContactCard() {
 	return {
-		scope: {
-			name: '=',
-			email: '=',
-			phone: '=',
-			username: '='
-		},
+		scope: {},
 		template: [
 			'<div>',
 				'<h4>Contact Card</h4>',
@@ -19,6 +14,16 @@ function ContactCard() {
 				'<span class="username">{{ username }}</span>',
 			'</div>'
 		].join(''),
+		controller: function() {
+
+		},
+		bindToController: {
+			name: '=',
+ 			email: '=',
+ 			phone: '=',
+ 			username: '='
+		},
+		controllerAs: 'ctrl'
 		restrict: 'E'
 	};
 }

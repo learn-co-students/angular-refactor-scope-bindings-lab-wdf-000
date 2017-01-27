@@ -1,0 +1,21 @@
+{
+  "name": "angular-refactor-scope-bindings-lab-wdf-000",
+  "version": "1.0.0",
+  "description": "## Objectives",
+  "main": "conf.js",
+  "dependencies": {},
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/eutopian/angular-refactor-scope-bindings-lab-wdf-000.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/eutopian/angular-refactor-scope-bindings-lab-wdf-000/issues"
+  },
+  "homepage": "https://github.com/eutopian/angular-refactor-scope-bindings-lab-wdf-000#readme"
+}
